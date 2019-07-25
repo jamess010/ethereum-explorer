@@ -3,8 +3,9 @@
 
 1) docker-compose up 
 2) 在浏览器中输入：http://localhost:8000
-3) 可以查看私有链信息
-4) 运行 ./run_client.sh, 可以使用命令操作区块链
+3) 如果访问 ajax.googleapis.com 等受限，请参看：https://github.com/justjavac/ReplaceGoogleCDN
+4) 在explorer中可以查看500个block信息
+5) 运行 ./run_client.sh, 可以使用命令操作区块链
 
 # 常用命令
 1) 创建账号
