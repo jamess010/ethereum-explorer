@@ -50,7 +50,7 @@ web3.eth.sendTransaction({from:web3.eth.accounts[0],to:web3.eth.accounts[1],valu
 
 eth.blockNumber
 
-##### 8) 返回0块信息
+##### 8) 返回第0块信息
 
 eth.getBlock(0)
 
