@@ -10,5 +10,11 @@ services:
       - 30303:30303
     volumes: 
       - ./workspace:/workspace
-#    command: ./run.sh
+
+  explorer:
+    image: jamess010/explorer
+    restart: always
+    ports:
+      - 8000:8000
+    command: ./run.sh
 
