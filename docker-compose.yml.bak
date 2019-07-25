@@ -6,9 +6,15 @@ services:
     image: ethereum/private-chain
     restart: always
     ports:
-      - 8545:8545
-      - 30303:30303
+      - 8989:8989
+      - 28000:28000
     volumes: 
       - ./workspace:/workspace
 #    command: ./run.sh
 
+  explorer:
+    image: jamess010/explorer
+    restart: always
+    ports:
+      - 8000:8000
+    command: ./run.sh
