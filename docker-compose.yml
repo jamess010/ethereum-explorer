@@ -34,9 +34,9 @@ services:
     image: jamess010/ethnetapi
     restart: always
     volumes:
-      - "/home/tjian/extData/blockchain/jamess010-explore/eth-net-intelligence-api/startscript.sh:/home/ethnetintel/eth-net-intelligence-api/startscript.sh"
-      - "/home/tjian/extData/blockchain/jamess010-explore/eth-net-intelligence-api/node01.json:/home/ethnetintel/eth-net-intelligence-api/node01.json"
-      - "/home/tjian/extData/blockchain/jamess010-explore/eth-net-intelligence-api/node02.json:/home/ethnetintel/eth-net-intelligence-api/node02.json"
+      - "/home/tjian/extData/blockchain/jamess010-explore/ethnetapi/startscript.sh:/home/ethnetintel/eth-net-intelligence-api/startscript.sh"
+      - "/home/tjian/extData/blockchain/jamess010-explore/ethnetapi/node01.json:/home/ethnetintel/eth-net-intelligence-api/node01.json"
+      - "/home/tjian/extData/blockchain/jamess010-explore/ethnetapi/node02.json:/home/ethnetintel/eth-net-intelligence-api/node02.json"
 
   ethstats:
     image: jamess010/ethstats
