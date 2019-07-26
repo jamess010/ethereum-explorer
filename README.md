@@ -1,4 +1,4 @@
-# 私有链监控项目（Ethereum Dashboard and Explorer）
+# 私有链监控的Docker实现（Ethereum Dashboard and Explorer）
 1）本项目有两个节点node01和node02。通过配置 docker-compose.yml 和 node 可以增加节点。 
 
 2）相应地需要配置 ethnetapi ，增加 nodexx.json，并改变 startscript.sh 的配置。
